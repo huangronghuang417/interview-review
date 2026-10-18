@@ -54,9 +54,9 @@ public class LeetCode005_reverseList {
         int[] head = {1, 2, 3, 4, 5};
 
         int target = 9;
-        int ans = binarySearch(nums, target);
 
 
-        System.out.print(ans);
+
+        System.out.print(target);
     }
 }

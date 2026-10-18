@@ -28,6 +28,7 @@ public class LeetCode007_maxDepth {
     }
 
     //迭代法 不熟
+    //BFS层序遍历模板
 
     public int maxDepth2(TreeNode root) {
         if(root==null) return 0;

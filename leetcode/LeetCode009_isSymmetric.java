@@ -17,7 +17,7 @@ public class LeetCode009_isSymmetric {
             this.right = right;
         }
     }
-//迭代法
+//递归法
         public boolean isSymmetric(TreeNode root) {
             if (root == null) return true;
             return check(root.left, root.right);

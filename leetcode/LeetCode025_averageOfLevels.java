@@ -16,7 +16,7 @@ public class LeetCode025_averageOfLevels {
             this.right = right;
         }
     }
-    //BFS
+    //BFS 重点
     public List<Double> averageOfLevels(TreeNode root) {
         List<Double> res = new ArrayList<>();
         if (root == null) return res;
@@ -43,7 +43,6 @@ public class LeetCode025_averageOfLevels {
     //DFS 不是重点
     private List<Long> sum = new ArrayList<>();
     private List<Integer> count = new ArrayList<>();
-
     public List<Double> averageOfLevels2(TreeNode root) {
         dfs(root, 0);
         List<Double> res = new ArrayList<>();
